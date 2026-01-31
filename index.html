@@ -1,0 +1,145 @@
+<!---
+MOTD
+95.CSS by YoshiMannaert
+https://github.com/YoshiMannaert/95CSS
+--->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mercs Royale - Welcome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/95css@latest/css/95css.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #008080;
+        color: #000;
+        font-family: "MS Sans Serif", "Tahoma", sans-serif;
+      }
+
+      .motd-wrap {
+        max-width: 720px;
+        margin: 0 auto;
+      }
+
+      .window {
+        width: 100%;
+        background: #c0c0c0;
+        border: 2px solid #000;
+        box-shadow: 2px 2px 0 #808080;
+      }
+
+      .title-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #000080;
+        color: #fff;
+        padding: 2px 4px;
+        font-size: 13px;
+      }
+
+      .title-bar-controls {
+        display: flex;
+        gap: 2px;
+      }
+
+      .title-bar-controls button {
+        width: 16px;
+        height: 14px;
+        padding: 0;
+        border: 1px solid #000;
+        background: #c0c0c0;
+        box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #808080;
+      }
+
+      .window-body {
+        padding: 12px;
+      }
+
+      .motd-header {
+        margin: 0 0 8px;
+      }
+
+      .motd-subtitle {
+        margin: 0 0 14px;
+        color: #333;
+        font-size: 12px;
+      }
+
+      .motd-message {
+        margin: 0 0 16px;
+        line-height: 1.4;
+      }
+
+      .motd-rules {
+        margin: 0 0 16px;
+        padding-left: 18px;
+      }
+
+      .motd-rules li {
+        margin: 6px 0;
+      }
+
+      .motd-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .motd-tag {
+        font-size: 11px;
+        background: #000080;
+        color: #fff;
+        padding: 2px 6px;
+        border: 1px solid #000;
+        box-shadow: inset 1px 1px 0 #7f7f7f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="motd-wrap">
+      <div class="window">
+        <div class="title-bar">
+          <div class="title-bar-text">Mercs Royale v1.0.0 - by Mann Co. Systems</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <h1 class="motd-header">Mercs Royale TF2C</h1>
+          <p class="motd-subtitle">Custom Weapons (New-Old Weapons Pack)</p>
+
+          <p class="motd-message">
+            Welcome to Mercs Royale, mercenary. You are now playing on Mercs
+            Royale TF2C - Custom Weapons (New-Old Weapons Pack).
+          </p>
+
+          <h2 class="motd-header">Server Rules</h2>
+          <ol class="motd-rules">
+            <li>Be nice to other mercenaries.</li>
+            <li>Definitely no cheating/exploiting.</li>
+            <li>
+              If you encounter any misbehaving mercenaries, use the built-in
+              mute/votekicking appropriately.
+            </li>
+          </ol>
+
+          <div class="motd-footer">
+            <strong>Have fun.</strong>
+            <span class="motd-tag">Mercs Royale</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
